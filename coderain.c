@@ -21,7 +21,7 @@ char generateRandomChar(){
    return (char)((rand() % 94) + 33);
 }
 
-// return 1 if columnt is empty, 0 otherwise
+// return 1 if column is empty, 0 otherwise
 int isColumnEmpty(screen* s, int col){
    int i;
    for(i = 0; i < s->height; i++){
